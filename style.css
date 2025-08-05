@@ -1,11 +1,15 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #fd4bfd;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
+/* agregados */
+    --color-red: #f70c0c;
+    --color-green: #1af567;
+    --color-btn: #79a8d2;
 }
 
 /* Estilos generales */
@@ -17,7 +21,7 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background-color: var(--color-green);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,11 +58,11 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 65px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: var(--color-red);
 }
 
 .section-title {
@@ -114,7 +118,8 @@ button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
-
+/* modificado */
+/*
 .button-add {
     background-color: var(--color-tertiary);
     color: var(--color-text);
@@ -124,7 +129,24 @@ button {
 .button-add:hover {
     background-color: #a1a1a1;
 }
+*/
+.button-add {
+    background-color: var(--color-tertiary); /* gris claro */
+    color: var(--color-btn);
+    font-weight: 800;
+    border-radius: 0 25px 25px 0;
+    border: 2px solid #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
 
+.button-add:hover {
+    background-color: #8c8c8c; /* gris medio, más oscuro */
+    color: var(--color-white);
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
 /* Listas */
 ul {
     list-style-type: none;
@@ -143,6 +165,8 @@ ul {
 }
 
 /* Botón de sortear título */
+/* modificado */
+/*
 .button-draw {
     display: flex;
     align-items: center;
@@ -159,4 +183,53 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+*/ 
+.button-draw {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: #28a745; /* Verde */
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Para animar */
+}
+
+/* Al hacer hover levanta y aumenta tamaño */
+.button-draw:hover {
+    background-color: #218838; /* Verde más oscuro para hover */
+    color: var(--color-text);
+    font-weight: 600;
+    transform: translateY(-5px) scale(1.05); /* Se levanta y agranda un poco */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Sombra más grande */
+}
+
+/* La imagen dentro del botón, para que mantenga separación */
+.button-draw img {
+    margin-right: 40px;
+}
+
+
+
+
+/* Nuevo color para botón deshabilitado */
+.button-draw.disabled {
+    background-color: var(--color-tertiary);
+    cursor: not-allowed;
+    color: #888888;
+}
+/*  new codigo*/ 
+/* Estilo del mensaje de aviso */
+#mensajeSorteo {
+    color: #e55720; /* color anaranjado / alerta */
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    display: none; /* inicialmente oculto */
 }
