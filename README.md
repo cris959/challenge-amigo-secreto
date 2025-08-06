@@ -12,4 +12,68 @@ ___
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)&nbsp;&nbsp;&nbsp;![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;&nbsp;&nbsp;![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;&nbsp;&nbsp;![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=for-the-badge)&nbsp;&nbsp;&nbsp;[![Git](https://img.shields.io/badge/git-%23F05032?logo=git&logoColor=white&style=for-the-badge)](https://git-scm.com/)&nbsp;&nbsp;&nbsp;![version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)&nbsp;&nbsp;&nbsp;![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)&nbsp;&nbsp;&nbsp;![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ___
 
+## Descripción 
 
+Es una aplicación sencilla para organizar un sorteo de un 'amigo secreto'. Permite ingresar nombres de personas y agregarlos a una lista que se muestra en pantalla mediante el botón 'Añadir'. Por último, al presionar el botón "Sortear amig@", se obtiene un nombre seleccionado al azar.
+___
+## Instalación
+
+Este proyecto es una aplicación web sencilla que funciona directamente en el navegador, por lo que no requiere instalación previa.
+
+Para ejecutar la aplicación, sigue estos pasos:
+
+1. Descarga o clona el repositorio en tu máquina.
+2. Navega a la carpeta del proyecto `challenge-amigo-secreto`.
+3. Abre el archivo `index.html` con tu navegador web preferido (puedes hacer doble clic sobre el archivo o abrirlo desde el navegador).
+
+¡Y listo! Así podrás usar la aplicación.
+
+---
+
+**Nota:**  
+Si prefieres, puedes servir el proyecto con un servidor local para evitar posibles problemas con la carga de algunos recursos, por ejemplo usando la extensión **Live Server** de Visual Studio Code.
+___
+## Uso
+
+* Ingresa los nombres de las personas en el campo correspondiente.
+
+* Presiona el botón "Añadir" para agregarlos a la lista.
+
+* Una vez añadidos todos los nombres, pulsa el botón "Sortear amigo" para obtener un nombre al azar.
+___
+## Características
+
+* Agrega nombres a una lista de participantes.
+
+* Sortea un nombre al azar con solo presionar un botón.
+
+* Interfaz sencilla e intuitiva.
+___
+## Contribuciones
+
+¡Las contribuciones son bienvenidas!
+
+Si deseas mejorar el proyecto, por favor sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una rama nueva con tus cambios: `git checkout -b mi-nueva-funcionalidad`
+3. Realiza tus mejoras o correcciones.
+4. Haz commit a tus cambios: `git commit -m 'Agrega una nueva funcionalidad'`
+5. Sube tu rama: `git push origin mi-nueva-funcionalidad`
+6. Abre un Pull Request detallando tus cambios.
+
+Si encuentras algún problema, no dudes en crear un issue. Todos los aportes y sugerencias son apreciados. ¡Gracias por ayudar a mejorar Amigo Secreto!
+___
+## Licencia
+
+Este proyecto está bajo la **Licencia MIT**. Esto significa que puedes usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del software, siempre que incluyas el aviso de copyright y esta licencia en todas las copias o partes sustanciales del software.
+
+El software se proporciona **"tal cual"**, sin garantía de ningún tipo, explícita o implícita, incluyendo pero no limitado a garantías de comerciabilidad o aptitud para un propósito particular. En ningún caso los autores serán responsables de ningún reclamo, daño u otra responsabilidad derivada del uso del software.
+___
+## Contacto
+
+Puedes contactarme a través de mi perfil de LinkedIn:  
+[**Christian Ariel Garay**](https://www.linkedin.com/in/christian-ariel-garay)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/christian-ariel-garay)
+___
