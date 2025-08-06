@@ -6,19 +6,16 @@ ___
 ## Primer Challenge Alura Latam.
 ## "Amigo Secreto" 
 ___
-## Tecnologías empleadas
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
 
-**"Estas son las insignias"**
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+## Tecnologías empleadas
+
+| Tecnologías | Badges |
+|-------------|--------|
+| HTML5       | [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML) |
+| CSS3        | [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS) |
+| JavaScript  | [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript) |
+| Git         | [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) |
+| GitHub      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/) |
 
 ___
 
@@ -83,7 +80,6 @@ ___
 ## Contacto
 
 Puedes contactarme a través de mi perfil de LinkedIn:  
-[**Christian Ariel Garay**](https://www.linkedin.com/in/christian-ariel-garay)
-
+**Christian Ariel Garay**
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/christian-ariel-garay)
 ___
