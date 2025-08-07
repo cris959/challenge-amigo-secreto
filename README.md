@@ -78,7 +78,7 @@ ___
 * Se agrego un mensaje con el uso de timeoutMensaje, cuando el usuario, preciona el boton de ‘sorteo’ mas de una vez.
 
 * Se modifico los hover de los btn, para que se vean mas realistas.
-
+___
 ## Contribuciones 🔥
 
 ¡Las contribuciones son bienvenidas!
